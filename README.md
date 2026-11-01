@@ -1,25 +1,73 @@
-# Explore SanFrancisco_EmployeeSalary-analysis
-Explore_SanFrancisco_Employee_Salary analysis is a data analysis project that explores the San Francisco City Salary dataset, a public dataset that contains salary and benefits data for San Francisco city employees. The goal of the project is to gain insights into the factors that influence salary, identify patterns, and make recommendations for improving salary equity.
-The project begins with an initial data exploration to understand the structure and contents of the dataset. This is done using commands like head(), info(), and describe() in Python. Once the dataset is understood, the project checks for any missing values or duplicates. Any missing values are handled and duplicate rows are removed.
-The project can also use the data to make recommendations for improving salary equity. For example, the project might identify departments or job titles where employees are underpaid. The project can then recommend strategies for addressing these disparities.
+<h1 align="center">💼 San Francisco Employee Salary Analysis</h1>
 
-The Explore_SanFrancisco_Employee_Salary analysis is a valuable resource for anyone who wants to learn more about data analysis or who is interested in understanding the factors that influence salary. It is also a useful example of how to use data science to improve public policy.
+<p align="center">
+  Exploratory data analysis of San Francisco city employee salaries and benefits using Python
+</p>
 
-#### Find Shape of Our Dataset (Number of Rows And Number of Columns)
-#### Check Null Values In The Dataset
-#### Drop ID, Notes, Agency and Status and Benefits Columns
-#### Get Overall Statistics About The Dataframe
-#### Find Occurrence of The Employee Names (Top 5)
-#### Find The Number of Unique Job Titles
-#### Total Number of Job Titles Contain Captain
-#### Display All the Employee Names From Fire Department
-#### Find Minimum, Maximum and Average BasePay
-#### Replace 'Not Provided' in EmployeeName' Column to NaN
-#### Drop The Rows Having 5 Missing Values
-#### Find Job Title of ALBERT PARDINI
-#### How Much ALBERT PARDINI Make (Include Benefits) ?
-#### Display Name of The Person Having The Highest BasePay
-#### Find Average BasePay of All Employee Per Year
-#### Find Average BasePay of All Employee Per JobTitle
-#### Find Average BasePay of Employee Having Job Title ACCOUNTANT
-#### Find Top 5 Most Common Jobs
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white" alt="Jupyter">
+  <a href="https://www.kaggle.com/"><img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
+</p>
+
+## 📌 Overview
+
+This project explores the **San Francisco City Salary** dataset, a public dataset with salary and benefits data for San Francisco city employees. It cleans the data and answers 18 questions with Pandas to understand the factors that influence pay, such as job title and year, and to spot patterns that could support salary equity decisions.
+
+---
+
+## ⚡ At a Glance
+
+| ❓ Questions Answered | 🧹 Columns Dropped | 🛠️ Main Tool |
+|:---:|:---:|:---:|
+| **18** | **5** | **Pandas** |
+
+---
+
+## 🔄 Workflow
+
+1. **Load & Inspect** – Reviewed the structure and contents of the data (`head()`, `info()`, `describe()`, shape).
+2. **Clean** – Dropped the `Id`, `Notes`, `Agency`, `Status` and `Benefits` columns, replaced `Not Provided` in `EmployeeName` with `NaN`, and dropped rows with 5 missing values.
+3. **Analyze** – Used filtering, `value_counts()`, `groupby()` and string operations to answer 18 questions.
+
+---
+
+## 🔍 Questions Answered
+
+**Dataset & cleaning**
+
+| # | Question |
+|:---:|---|
+| 1 | What is the shape of the dataset (rows and columns)? |
+| 2 | Are there null values in the dataset? |
+| 3 | Which columns can be dropped (ID, Notes, Agency, Status, Benefits)? |
+| 4 | What are the overall statistics of the dataframe? |
+| 5 | How can `Not Provided` in `EmployeeName` be replaced with `NaN`? |
+| 6 | How can rows with 5 missing values be dropped? |
+
+**Exploration**
+
+| # | Question |
+|:---:|---|
+| 7 | Which employee names occur most often (top 5)? |
+| 8 | How many unique job titles are there? |
+| 9 | How many job titles contain "Captain"? |
+| 10 | Which employees work in the Fire Department? |
+| 11 | What are the top 5 most common jobs? |
+
+**Salary analysis**
+
+| # | Question |
+|:---:|---|
+| 12 | What are the minimum, maximum and average `BasePay`? |
+| 13 | Who has the highest `BasePay`? |
+| 14 | What is the job title of ALBERT PARDINI? |
+| 15 | How much does ALBERT PARDINI make (including benefits)? |
+| 16 | What is the average `BasePay` of all employees per year? |
+| 17 | What is the average `BasePay` per job title? |
+| 18 | What is the average `BasePay` for the job title ACCOUNTANT? |
+
+## 👩‍💻 Author
+
+**Marwa Samy** · [GitHub](https://github.com/marwa23-rgb)
